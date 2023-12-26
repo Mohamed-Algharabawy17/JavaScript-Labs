@@ -23,7 +23,7 @@ Each lab folder contains HTML and JavaScript files along with a README file prov
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/javascript-labs.git
+   git clone https://github.com/Mohamed-Algharabawy17/JavaScript-Labs.git
 
 
 ## Getting Started
@@ -65,4 +65,4 @@ This JavaScript Labs repository is open-source and available under the [MIT Lice
 
 Happy coding!
 
-Feel free to replace placeholders such as `your-username` and add specific details to each lab's README file.
+Feel free to replace placeholders such as `Mohamed-Algharabawy17` and add specific details to each lab's README file.
