@@ -16,47 +16,6 @@ The labs cover a range of JavaScript concepts and are designed to help you pract
 
 ## Folder Structure
 
-The repository has the following folder structure:
-
-├── Lab1
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab2
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab3
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab4
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab5
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab6
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab7
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab8
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-├── Lab9
-│ ├── index.html
-│ ├── script.js
-│ └── README.md
-
-
-
 Each lab folder contains HTML and JavaScript files along with a README file providing instructions and details about the lab.
 
 ## Getting Started
