@@ -1,0 +1,11 @@
+In JavaScript, there are no native constructs for defining abstract classes or interfaces like in languages such as Java or C#. 
+However, you can achieve similar functionality using different patterns and practices. Below, 
+
+This is an explanations for abstract classes and interfaces in JavaScript
+
+1- Abstract Classes in JavaScript
+An abstract class is a blueprint for other classes. It cannot be instantiated ( create object from it ) 
+and often contains abstract methods that must be implemented by derived classes
+
+2- Interfaces in JavaScript
+JavaScript doesn't have native support for interfaces, but you can simulate them using object literals or TypeScript
