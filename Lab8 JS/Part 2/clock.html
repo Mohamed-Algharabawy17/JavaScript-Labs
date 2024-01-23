@@ -1,0 +1,67 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="clock">
+            <div id="clock">
+                <div id="days"></div>
+                <div class="intervals">
+                    <button id="alarm-btn">
+                        <img src="./images/bell_1827422.png" width="10px" height="10px"/>
+                    </button>
+                    <div id="time"></div>
+                    <div id="ampm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <span class="title">
+        <i>Digital Clock</i>
+    </span>
+    <br>
+
+    <button id="close-alarm">&times;</button>
+    <div id="main-alarm">
+        <h4>SET ALARM AFTER</h4>
+        <div class="main-timer">
+            <div id="hour">
+                    <h5>HOURS</h5>
+                    <input type="number" id="span1" value="0"/>
+            </div>
+            <div id="min">
+                    <h5>MINUTES</h5>
+                    <input type="number" id="span2" value="0"/>
+                     
+            </div>
+            <div id="sec">
+                    <h5>SECONDS</h5>
+                    <input type="number" id="span3" value="0"/>
+            </div>
+            <select id="select-ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <div class="main-btns">
+            <button id="set">SET</button>
+            <button id="clear">CLEAR</button>
+        </div>
+
+    </div>
+
+
+    <div id="alert"></div> 
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
+
+

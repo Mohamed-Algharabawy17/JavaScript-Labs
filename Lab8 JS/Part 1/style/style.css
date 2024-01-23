@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#outer-div
+{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-div
+{
+    width: 300px;
+    height: 410px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(249, 227, 227);
+    box-shadow: 0px 0px 5px rgb(139, 79, 79) inset;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#my-img
+{
+    width: 300px;
+    height: 370px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#next-btn,#prev-btn
+{
+    border: none;
+    background-color: white;
+    width: 45px;
+    height: 25px;
+    margin: 0;
+}
+
+#start-btn,#stop-btn
+{
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(86, 71, 71) inset;
+}
+
+#start-btn:focus
+{
+    outline: none;
+    background-color: rgb(101, 191, 101);
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    color: white;
+}
+
+#stop-btn:focus
+{
+    outline: none;
+    background-color: rgb(213, 82, 82);
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    color: white;
+
+}
+
+.next-img,.prev-img
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 0;
+}
+
+.next-img
+{
+    transform: rotate(180deg);
+}
+
+.prev-img:hover
+{
+    width: 25px;
+    height: 25px;
+}
+
+.next-img:hover
+{
+    width: 25px;
+    height: 25px;
+}

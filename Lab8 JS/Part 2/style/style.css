@@ -1,0 +1,210 @@
+body {
+    background-color: #61788F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-div {
+    background-color: #fff;
+    width: 370px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    padding: 10px;
+    width: 270px;
+    height: 80px;
+    background-color: #E0DFDF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2) inset;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intervals
+{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#clock {
+    text-align: center;
+}
+
+#time {
+    font-size: 45px;
+}
+
+#days {
+    font-size: 15px;
+}
+
+#days span {
+    margin: 0 5px;
+    cursor: pointer;
+    color: rgb(177, 177, 177);
+}
+
+#days .active {
+    color: #000000;
+}
+
+#alarm-btn
+{
+    background-color: #E0DFDF;
+    border: none;
+}
+
+.title
+{
+    color: wheat;
+    font-size: 30px;
+}
+
+
+.alarm-div
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#main-alarm
+{
+    background-color: #fff;
+    width: 370px;
+    height: 330px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-timer
+{
+    width: 90%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+#hour,#min,#sec
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+h4
+{
+    color: grey;
+    font-weight: bold;
+}
+
+h5
+{
+    color: gray;
+}
+
+#set
+{
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #77a3d0;
+    color: white;
+}
+
+#clear
+{
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(201, 98, 98);
+    color: white;
+}
+
+#span1,#span2,#span3
+{
+    width: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+#select-ampm
+{
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(225, 225, 225);
+    color: rgb(201, 98, 98);
+    font-weight: bold;
+}
+
+#close-alarm{
+    margin-left: 370px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    border-radius: 100%;
+    background-color: #000000;
+    border: 1px double white;
+    display: none;
+}
+
+
+
+
+/* dialog */
+
+
+#alert {
+    padding: 20px;
+    background-color: #d78940;
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+    border-radius: 10px;
+  }
+
+#alert p {
+    display: inline-block;
+    margin: 0;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: rgb(207, 0, 0);
+}
+
+
