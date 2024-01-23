@@ -1,0 +1,95 @@
+body
+{
+    background-color: rgb(47, 139, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#main-div
+{
+    background-color: white;
+    width: 350px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inputs
+{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#create-account
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.defaulttxt,.defaultpass
+{
+    border: 1px solid grey;
+}
+
+input
+{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+}
+
+
+
+#login-btn
+{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: rgb(34, 173, 34);
+    color: white;
+    border-radius: 5px;
+}
+
+#register-btn
+{
+    border: none;
+    background-color: white;
+    color: rgb(34, 173, 34);
+}
+
+span
+{
+    display: none;
+}
+
+.success
+{
+    border: 1px solid green;
+}
+
+.error
+{
+    border: 1px solid red;
+}
+
+
+input:focus
+{
+    outline : none;
+}
+
+#usrtxterror,#usrpasserror
+{
+    color: red;
+    font-size: 15px;
+}
