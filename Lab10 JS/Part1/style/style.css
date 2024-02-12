@@ -1,0 +1,123 @@
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#main-div 
+{
+    width: 80%;
+    max-width: 450px; 
+    height: 50%;
+    margin: 20px auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(173, 169, 169) inset;
+}
+
+#list 
+{
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 15px;
+    height: 150px;
+    width: 900%; 
+    max-width: 400px; 
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(222, 222, 222);
+    flex: 1;
+    overflow-y: auto; 
+    max-height: 400px; 
+}
+
+hr 
+{
+    margin-top: 12px;
+    width: 90%; 
+    max-width: 390px;
+}
+
+#add 
+{
+    padding: 10px;
+    height: auto; 
+    width: 70%; 
+    max-width: 400px; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#add-btn 
+{
+    background-color: rgb(48, 118, 184);
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+}
+
+#txt 
+{
+    border: 1px solid rgb(191, 191, 191);
+    height: 25px;
+    border-radius: 4px;
+    width: 50%; 
+    max-width: 250px; 
+}
+
+.done-btn
+{
+    background-color: green;
+    border: none;
+    width: 30px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.remove-btn
+{
+    background-color: red;
+    border: none;
+    width: 30px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.task
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(173, 173, 173);    
+}
+
+.empty-message 
+{
+    text-align: center;
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+    #main-div 
+    {
+        width: 90%; 
+    }
+
+    #list, #add, #hr 
+    {
+        width: 100%; 
+        max-width: none; 
+    }
+}
+
